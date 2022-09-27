@@ -1,0 +1,20 @@
+{
+    "name": "javascript",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/abdelrahmanessawy/Simple-Curds-js-System.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/abdelrahmanessawy/Simple-Curds-js-System/issues"
+    },
+    "homepage": "https://github.com/abdelrahmanessawy/Simple-Curds-js-System#readme"
+  }
+  
