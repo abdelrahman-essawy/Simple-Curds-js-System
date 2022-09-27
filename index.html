@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <div class="container my-5 text-center" style="font-size: 22px;">
+      <div class="row justify-content-center">
+        <div class="col-md-4">
+          <label class="form-label mt-4" for="productNameId">productName</label>
+          <input id="productNameId" class="form-control text-center" type="text" placeholder="Toshiba" required>
+        </div>
+        <div class="col-md-4 mt-4">
+          <label class="form-label" for="productPriceId">productPrice</label>
+          <input id="productPriceId" class="form-control text-center" type="number" placeholder="$300" required>
+        </div>
+      </div>
+    <div id="mainButtonId"></div>
+</div>
+
+  <div class="w-75 m-auto">
+    <label for="searchInputId"></label>
+    <input onkeyup="searchProduct(this.value);" type="text" class="form-control" id="searchInputId" placeholder="Search For Product">
+  </div>
+
+  <table class="table container mt-5 py-3 text-center">
+    <thead style="font-size: 18px;">
+      <th class="text-muted">productName</th>
+      <th class="text-muted">productPrice</th>
+      <th class="text-muted">Update</th>
+      <th class="text-muted">Delete</th>
+
+    </thead>
+
+    <tbody id="tableBodyId">
+
+    </tbody>
+  </table>
+
+
+
+
+
+
+  <script src="main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
